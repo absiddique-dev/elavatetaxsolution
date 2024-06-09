@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5em;
+            color: #dc3545;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404 Not Found</h1>
+        <p>The page you are looking for might be unavailable or does not exist.</p>
+        <p>Visit our <a href="http://www.elavatetaxsolution.in" target="_blank">home page</a>.</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            window.location.href = "http://www.elavatetaxsolution.in";
+        }, 3000); // Redirect after 3 seconds
+    </script>
+</body>
+</html>
